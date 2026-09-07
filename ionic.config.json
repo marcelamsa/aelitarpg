@@ -1,0 +1,7 @@
+{
+  "name": "aelitarpg",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
