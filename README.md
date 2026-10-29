@@ -1,16 +1,33 @@
 # Metanoia
 
-Metanoia é uma aplicação web desenvolvida com Ionic e React. O projeto está a ser construído para criar uma experiência de comunidade ligada ao Discord, com autenticação e perfis de utilizador.
+Metanoia é o site do universo Aelita, desenvolvido com Ionic e React. A proposta é permitir que cada jogador consulte a sua própria “mente”: um espaço pessoal com as informações técnicas e narrativas do seu personagem, deixadas ou atualizadas durante o jogo.
 
 > O projeto encontra-se em desenvolvimento. As funcionalidades descritas abaixo correspondem ao estado atual do código.
 
-## Funcionalidades atuais
+## Objetivo do projeto
+
+O site pretende funcionar como um arquivo pessoal dos jogadores, reunindo informações que podem ser difíceis de consultar ou atualizar dentro do jogo. A ideia é que cada pessoa possa acompanhar os dados do seu personagem e manter a sua história organizada num só lugar.
+
+Entre as funcionalidades planeadas estão:
+
+- Guardar e editar a história e os nicknames dos personagens.
+- Consultar o nível de sanidade atribuído ao personagem.
+- Ver o estado da candidatura ou participação: em análise, aprovado ou recusado, e se o jogador está no servidor.
+- Consultar se o personagem está vivo ou morto e a que lado pertence.
+- Enviar imagens de referência para guardar junto das informações do personagem.
+- Acompanhar atualizações do universo Aelita e, futuramente, integrar redes sociais como Twitter/X e YouTube.
+
+Este espaço poderá receber novas mecânicas no futuro.
+
+## Funcionalidades implementadas
 
 - Página inicial com opção de autenticação através do Discord.
 - Autenticação OAuth gerida pelo Supabase.
 - Página de perfil que apresenta o nome, o nome de utilizador e o avatar devolvidos pelo Discord.
 - Opção para terminar sessão.
 - Interface construída com Ionic e React.
+
+As funcionalidades de sanidade, estados do personagem, upload de imagens e integração com redes sociais fazem parte da visão do projeto e ainda não estão implementadas no código atual.
 
 ## Tecnologias
 
@@ -92,9 +109,7 @@ src/
 
 ## Estado do desenvolvimento
 
-A aplicação já inclui o fluxo de login com Discord e a apresentação dos dados básicos do perfil. O repositório também contém um editor de história e estilos associados em desenvolvimento.
-
-Ideias planeadas para evolução incluem personalização do perfil, funcionalidades de comunidade e ferramentas de administração. Estas partes ainda podem não estar implementadas ou ligadas à interface atual.
+A aplicação já inclui o fluxo de login com Discord e a apresentação dos dados básicos do perfil. O repositório contém componentes em desenvolvimento relacionados à edição de história, mas o conjunto de funcionalidades descrito na visão do projeto ainda está a ser construído.
 
 ## Contribuição
 
