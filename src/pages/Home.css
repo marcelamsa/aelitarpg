@@ -1,0 +1,69 @@
+
+
+
+
+.principal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+
+  background-image: url(/public/assets/5532808.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.titulo-principal {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #f6b5ef;
+  text-shadow: 0 0 20px rgba(224, 114, 255, 0.6);
+}
+
+
+.caixa-frase {
+  background: rgba(20, 15, 30, 0.5);
+  backdrop-filter: blur(8px); /* Deixa o fundo levemente embaçado */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem 4rem;
+  margin-bottom: 3rem;
+  max-width: 650px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.texto-citacao {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 1.5rem 0;
+}
+
+
+
+
+.conecte-discord {
+  background: transparent;
+  border: none;
+  font-size: 0.8rem;
+  color: #7b6a8f;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s ease;
+}
+
+.principal-container .conecte-discord:hover{
+  color:#f6b5ef;
+  text-shadow: 0 0 2px #f6b5ef;
+  transform: scale(1.05);
+}
